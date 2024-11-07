@@ -1,0 +1,57 @@
+.menu-item{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    gap: 10px;
+
+}
+
+
+
+
+
+
+body{
+    background-color: rgb(96, 188, 216);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10%;
+    
+}
+hr{
+    border: 1px solid;
+    border-color: black;
+    width: 35%;
+}
+.ladoalado2{
+    width: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.menu-item:hover{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    gap: 10px;
+}
+    .ladoalado{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    section{
+        border: 1px solid;
+        border-color:black;
+        margin: 5%;
+        padding: 2%;
+    }
+    #inicio{
+        margin-top: 70px;
+    }
